@@ -10,5 +10,6 @@ Feature Transfer Learning via Reinforcement Learning for Software Defect Predict
 * pandas-v:1.2.3
 ## 2.Dataset
 We use two datasets to evaluate FTL, which are PROMISE collected by Jureczko and Madeyski and NASA MDP dataset curated by Shepperd et al.
-[PROMISE-Jureczko and Madeyski](https://dl.acm.org/doi/abs/10.1145/1868328.1868342)
-[NASA MDP-Shepperd et al.](https://ieeexplore.ieee.org/abstract/document/6464273)
+
+* [PROMISE-Jureczko and Madeyski](https://dl.acm.org/doi/abs/10.1145/1868328.1868342)
+* [NASA MDP-Shepperd et al.](https://ieeexplore.ieee.org/abstract/document/6464273)

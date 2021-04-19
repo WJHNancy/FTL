@@ -14,3 +14,20 @@ We use two datasets to evaluate FTL, which are PROMISE collected by Jureczko and
 * [NASA MDP-Shepperd et al.](https://ieeexplore.ieee.org/abstract/document/6464273)
 
 We have provided the downloaded datasets in the PROMISE and NASA MDP folders. Each project has been randomly divided into 5 folds, each fold data contains two file types: .CSV and .ARFF.
+## 3.Model Training and Testing
+If you want to use our model quickly, first you need to add the 5 fold data of the project to the 'dataset' folder, we use the synapse-1-1 project as an example. Then afem.py is used to train and test the project. When calling the main function, you need to set two parameters as follows,
+```python
+if __name__ == "__main__":
+```
+```python
+    classifier = 'nb'  # lr, rf
+```
+```python
+    project = 'synapse-1-1'  # the name of the project
+```
+```python
+    for i in range(5):
+```
+```python
+        main(i, project, classifier)
+```

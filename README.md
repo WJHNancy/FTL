@@ -35,3 +35,6 @@ if __name__ == "__main__":
 You can change the content of 'classifier' and 'project'. There are three choices for 'classifier','nb','lr' and 'rf', which represent Bayesian classifier, logistic regression classifier and random forest classifier respectively. 'Project' is the name of the project.
 
 The results are displayed in the 'out' folder.
+## 4.Appendix
+Due to the length limitation of the paper, some figures and tables of the results cannot be displayed in the submitted paper. Appendix.pdf contains these results, and the numbers of the figures and tables are the same as those in the paper.
+

@@ -32,7 +32,7 @@ if __name__ == "__main__":
         main(i, project, classifier)
 ```
 
-You can change the content of 'classifier' and 'project'. There are three choices for 'classifier','nb','lr' and 'rf', which represent Bayesian classifier, logistic regression classifier and random forest classifier respectively. 'Project' is the name of the project.
+You can change the content of **classifier** and **project**. There are three choices for **classifier**: 'nb', 'lr' and 'rf', which represent Bayesian classifier, logistic regression classifier and random forest classifier respectively. **Project** is the name of the project.
 
 The results are displayed in the 'out' folder.
 ## 4.Appendix
